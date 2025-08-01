@@ -1,4 +1,4 @@
-# Sp25-Electrical-Training
+# Electrical-Training
 
 ## Welcome to Calsol Electrical Training!
 This lab is meant to teach you the workflow of designing a PCB from scratch. You do not need ANY prior experience in PCB design or electrical engineering to complete this lab. 

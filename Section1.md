@@ -16,7 +16,7 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) is the bring-up portion of the training.
 
-## Deadline for returning AND new members (Wednesday, October 1st at 9 am)
+## Deadline for new members (Wednesday, October 1st at 9 am)
 The hardware lab component must be finished the morning of the 1st as all CalSol onboarding must be checked off and confirmed by GM later that day. Note that the last office hours and chance for help will be the last day of September.
 
 # OFFICE HOUR TIMES

@@ -9,7 +9,7 @@ WIP of what the final lab project actually is
 - [Section 9](./Section9.md) is an overview of basic coding in C. If you have experience and/or took CS61C, you can skim over this section
 - [Section 10](./Section10.md) introduces the basics of firmware
 - [Section 11](./Section11.md) goes over key concepts specific to our car including communication protocols
-- [Section 5](./Section12.md) WIP explains the project
+- [Section 12](./Section12.md) WIP explains the project
 
 ## Deadline for returning AND new members (Sunday, October 12th at midnight)
 This is a hard deadline as we don't want to be working on labs when projects start up

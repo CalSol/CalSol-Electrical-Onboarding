@@ -17,6 +17,6 @@ In this last section, you will be assembling a PCB and verifying the circuit you
 1) IEEE GM + Soldering Workshop (9/26 5-7PM in the Soda Wozniak Lounge)
 2) After EM Monday Soldering (9/29 9-10PM in Supernode).
 
-Note: we do not have the bandwidth to accomodate more than 8 people for the second option. We heavily encourage going to the IEEE workshop (there is pizza as well), but if you can't make it then message us ahead of time so we can prepare our soldering workshop. Also, our soldering workshop is able to be attended by everyone, but only 8 people will be able to solder and get checked off.
+Note: we do not have the bandwidth to accomodate more than 5 people for the second option. We heavily encourage going to the IEEE workshop (there is pizza as well), but if you can't make it then message us ahead of time so we can prepare our soldering workshop. Also, our soldering workshop is able to be attended by everyone, but only 8 people will be able to solder and get checked off.
 
 ### Good luck!

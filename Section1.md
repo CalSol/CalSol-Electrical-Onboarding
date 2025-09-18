@@ -20,7 +20,7 @@ The hardware lab component must be finished the morning of the 1st as all CalSol
 
 # OFFICE HOUR TIMES
 In-person Office hours for help and checkoffs. 
-## All Office hours will be held in Cory 246 (Supernode)
+## All Office hours will be held in or outside Cory 246 (Supernode)
 - If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
   
 Will be posted ASAP

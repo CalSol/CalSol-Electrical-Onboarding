@@ -23,6 +23,7 @@ In-person Office hours for help and checkoffs.
 ## All Office hours will be held in or outside Cory 246 (Supernode)
 - If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
 
+Ignore the date. This is the timeline daily for the whole two weeks of onboarding unless further clarified.
 ![OH Times](./images/OH_Timeline.png)
 
 Feel free to reach out to the lab staff on slack for help or for checkoffs:

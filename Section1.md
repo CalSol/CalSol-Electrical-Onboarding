@@ -23,5 +23,5 @@ In-person Office hours for help and checkoffs.
 ## All Office hours will be held in Cory 246 (Supernode)
 - If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
   
-WIP Insert OH times
+Will be posted ASAP
 

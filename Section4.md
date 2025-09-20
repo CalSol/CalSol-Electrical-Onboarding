@@ -69,3 +69,7 @@ Lab Staff to reach out to: Ahmed A, Alex W, David N, Eric L, Jonathan J, Matthew
 (Please note in the image below, the led circuit on the left should be the led circuits you made from section 3)
 
 ![Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)
+
+# DUE DATE 9/24 by the start of the meeting!!!
+- Please try to get these in by Monday so we can help you during the meeting
+- We will be starting layout on the 24th during the meeting, so please have the schematic done by then

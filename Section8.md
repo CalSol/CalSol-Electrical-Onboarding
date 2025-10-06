@@ -1,5 +1,7 @@
 # Section 8: Software Introduction
 
+Note: Please don't get stuck on this part of the firmware lab. We will help debug this software stuff in person. Please continue on without finishing this section as the following sections don't need any of this software.
+
 ## Git + Github Repositories
 
 This is what we use to share files and practice version control
@@ -38,8 +40,13 @@ After you install VSCode, you can install platform.io through VSCode Extensions.
 
 ### Running Platform.io
 
-WIP Explain the process to run and upload code off of platform
+How do we run Platform.io?
 
-## Confluence + Jira
+First you can click on the platformIO symbol on the left side (it looks like an alien). Here it will prompt you to create a project or to open a folder to a project. Because I do not assume you have any projects or access to our projects, I will demonstrate me opening and running code. Please don't waste time trying to make a project, just refer back to this lab or us when the time comes.
 
-WIP Explain what these softwares do and how we would like members to use it. Doubles as intro to Jira for everyone
+When you open a project or folder, you will see c++ code. Note: when opening CalSol firmware library code, open the entire repo folder to have access to all relevant libraries. In this IDE you will actually be writing, debugging, and uploading this C++ code, so the only way to really learn it is to play around with it. Here is a picture of what your window will look like
+
+![Platform Picture](./images/PlatformWindow.png)
+
+At the bottom of the page contains most of the interesting things you will using in Platform. These include the buttons for build (check mark), upload (right arrow), and serial monitor (plug). You can also choose the environment you are actually uploading. Make sure you are in the correct environment to make sure you are uploading the correct code. In general, just play around with it and you will find it is more intuitive than you would think.
+

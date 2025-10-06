@@ -204,7 +204,7 @@ Here is what is supposed to happen when you run the code:
 
 If the LED doesn’t change brightness or the button doesn’t work, check your wiring carefully — especially the button’s connection to **GND**.
 
-Upon finishing the project, please reach out to lab staff for check off.
+**IMPORTANT: Upon finishing the project, please reach out to lab staff for check off.
 
 
 ---

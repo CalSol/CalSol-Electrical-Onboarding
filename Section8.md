@@ -26,17 +26,15 @@ WIP Add a section on how we want to use version control and git to share. Explai
 
 ## C and C++
 
-## VSCode + Platform.io
-
-This is the code editor we will be writing firmware through
-
-### Installing VSCode
+### Installing VSCode, Platform.io, and C++
 
 If you don't already have VSCode installed on your computer, install it using this link [here](https://code.visualstudio.com/download). Ignore if you already have VSCode installed
 
 ### Setting Up Platform.io
 
-WIP Explain process to setup Platform
+After you install VSCode, you can install platform.io through VSCode Extensions. Go to VSCode Extensions and download the PlatformIO IDE. To do this, click on the extensions area of the sidebar (shown in red on the image) and search up platformIO IDE (as highlighted)
+
+![Install Picture](./images/PlatformDownload.png)
 
 ### Running Platform.io
 

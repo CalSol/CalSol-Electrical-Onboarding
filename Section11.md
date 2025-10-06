@@ -81,7 +81,6 @@ Once all parts are placed on the canvas, we’ll move on to wiring them together
 > **Why:** GPIO 34 is an ADC pin that reads a range of values (0–4095) representing the potentiometer’s position.
 
 ---
----
 
 ### Power & Ground
 Make sure **all components share the same 3.3 V and GND** connections.  
@@ -92,4 +91,32 @@ Make sure **all components share the same 3.3 V and GND** connections.
 
 When finished, your circuit should look similar to this (feel free to make it look neater!):  
 ![circuit setup](images/Circuit%20Setup.png)
+
+# Actual Firmware Stuff :)
+
+Okay, the circuit’s all hooked up — now let’s sprinkle some code magic on it!
+
+---
+
+On the left half of your screen, you should see two important functions:
+
+1. setup()
+
+   - Runs once at the very beginning.
+   - Think of it like *“initialization.”*  
+     This is where you configure pins, start communication, or print a startup message.
+   - Example here:  
+     Serial.begin(115200) -> sets up the USB serial connection so the ESP32 can talk to your computer.
+
+2. loop()
+
+   - Runs over and over forever.
+   - This is where your main program logic lives.  
+     If you want the ESP32 to blink an LED, read a button, or check a sensor, that code will go here.
+
+---
+
+In this starter code, the only thing inside loop() is a short delay(10);. That doesn’t do much, but it prevents the simulation from running unnecessarily fast.
+
+
 

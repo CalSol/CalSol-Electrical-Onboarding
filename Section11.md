@@ -167,6 +167,8 @@ Add a simple **debounce** using millis():
 - Only accept a new press if enough time (e.g., 150 ms) has passed.
 - millis(): this is a built-in Arduino function that returns the number of milliseconds that have passed since your ESP32 started running the current program.
 
+Hint: Using an if statement!
+
 **Bonus:** Add a toggle (pressed once = ON, pressed again = OFF).
 
 

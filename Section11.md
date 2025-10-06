@@ -47,9 +47,12 @@ Use the **Add Part** button to add:
 - 1 × LED  
 - 1 × Resistor (220–330 Ω recommended)  
 - 1 × Push Button  
-- 1 × Potentiometer  
+- 1 × Potentiometer
+For your reference:
+![Component Reference](images/Component%20Reference.png)
 
 Once all parts are placed on the canvas, we’ll move on to wiring them together.  
+
 *(Don’t worry — we’ll go step by step!)*
 
 ---
@@ -88,5 +91,5 @@ Make sure **all components share the same 3.3 V and GND** connections.
 ---
 
 When finished, your circuit should look similar to this (feel free to make it look neater!):  
-```markdown
-![Example Circuit Wiring](images/firmware_lab_wiring.png)
+![circuit setup](images/Circuit%20Setup.png)
+

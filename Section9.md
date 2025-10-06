@@ -27,3 +27,7 @@ Why do we care about hex? Let's make some interesting observations. Note that 16
 ![Hex to Binary Table](./images/HexBinary.png)
 
 Even cooler, we can actually represent any 2 digit hex number with an 8 digit binary number. This is exactly because powers of 2 and powers of 16 line up, and you can think of the different digits as just being shifted by a multiplication of a power of 2 or 16. For the punchline, we realize that hex is effectively just a nicer way of reading binary, as we can get the value of any 4 bits by looking at a singular hex digit.
+
+### Other things
+
+It would be nice to teach you everything now, but for sake of time we won't. If you are more curious about all of this before 61C, you can look up topics such as Endianess and IEEE-754 Floating point as these happen to come up when dealing with firmware. 

@@ -5,7 +5,7 @@ Welcome to the CalSol Electrical subteam for real this time!
 WIP of what the final lab project actually is
 
 ### Here is a general overview of the hardware training:
-- [Section 8](./Section8.md) introduce the software we will be using for firmware (VSCode, C Compiler, Platform.io, Git)
+- [Section 8](./Section8.md) introduce the software we will be using for firmware (VSCode, Platform.io, Git)
 - [Section 9](./Section9.md) is an overview of basic coding in C. If you have experience and/or took CS61C, you can skim over this section
 - [Section 10](./Section10.md) introduces the basics of firmware
 - [Section 11](./Section11.md) explains the square wave generator project

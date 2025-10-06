@@ -215,7 +215,6 @@ If the LED doesn’t change brightness or the button doesn’t work, check your 
 
 You have now **completed the entire onboarding process!**
 
-![Relationship Status: Electrical Engineering](Meme.png)
 
 
 

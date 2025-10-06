@@ -14,9 +14,5 @@ WIP of what the final lab project actually is
 This is a hard deadline as we don't want to be working on labs when projects start up
 
 # OFFICE HOUR TIMES
-In-person Office hours for help and checkoffs. 
-## All Office hours will be held in Cory 246 (SuperNode)
-- If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
-  
-WIP Insert OH times
+There will be no in person OH, but please come with questions on Wednesday. Also feel free to DM me or Eric. In general, we will start threads in Electrical, so please help out fellow members and get help from fellow members.
 

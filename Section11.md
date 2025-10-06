@@ -19,7 +19,7 @@ This project introduces **GPIO basics**, **analog inputs**, and **PWM duty cycle
 
 1. Go to [https://wokwi.com/](https://wokwi.com/) → Select **ESP32** → Scroll down for **Starter Templates** → Select **ESP32** (the very first one).
 3. When you open a new project, you’ll see something like this:
-![ESP32 Template Circuit](images/ESP%20template.png)
+![ESP32 Template Circuit](images/ESP_template.png)
    - For now, ignore the left half (code editor).  
    - Let’s first make our circuit on the right half.  
 

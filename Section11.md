@@ -154,7 +154,6 @@ Don’t worry, we’ll go step-by-step — but you’ll also get chances to figu
   **Hint:** The LED should be OUTPUT, the button should be INPUT_PULLUP.  
   Can you guess why?
 
----
 
 ### 2. Read the button (with debouncing)
 
@@ -170,7 +169,6 @@ Add a simple **debounce** using millis():
 
 **Bonus:** Add a toggle (pressed once = ON, pressed again = OFF).
 
----
 
 ### 3. Read the potentiometer and map the value
 
@@ -181,13 +179,12 @@ Add a simple **debounce** using millis():
   Use the map() function to scale 0–4095 → 0–255.
 hint: map(value, fromLow, fromHigh, toLow, toHigh)
 
-### 5. Drive the LED
+### 4. Drive the LED
 
 - Finally, send the mapped value to the LED.  
   Use： analogWrite(LED_PIN, duty);
 - If the button has turned the LED “off,” then don’t write anything except 0.
 
----
 ### 🧠 Sanity Check (Before Getting Checked Off)
 
 Here is what is supposed to happen when you run the code:

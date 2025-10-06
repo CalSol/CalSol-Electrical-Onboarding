@@ -26,7 +26,7 @@ WIP Add small tutorial to clone repos as well as note which repos to clone
 
 WIP Add a section on how we want to use version control and git to share. Explain the process we use on Git
 
-## C and C++
+## Programming a Board
 
 ### Installing VSCode, Platform.io, and C++
 

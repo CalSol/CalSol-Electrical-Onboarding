@@ -24,6 +24,6 @@ In reality, writing out a 64 bit message will be very hard to read and hard to f
 
 Why do we care about hex? Let's make some interesting observations. Note that 16 is a multiple of 2. This means it interfaces very easily with things defined in terms of multiples of 2. More specifically, 16 is 2^4. Without getting too in depth, I want you to believe me when I say that this means any singular hex digit (or any number between 0-15 for that matter) can be represented one to one by 4 binary digits. We have a table below of this
 
-[Hex to Binary Table](./images/HexBinary.png)
+![Hex to Binary Table](./images/HexBinary.png)
 
 Even cooler, we can actually represent any 2 digit hex number with an 8 digit binary number. This is exactly because powers of 2 and powers of 16 line up, and you can think of the different digits as just being shifted by a multiplication of a power of 2 or 16. For the punchline, we realize that hex is effectively just a nicer way of reading binary, as we can get the value of any 4 bits by looking at a singular hex digit.

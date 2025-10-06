@@ -212,6 +212,7 @@ Upon finishing the project, please reach out to lab staff for check off.
 ## 🎉 Congratulations!
 
 You have now **completed the entire onboarding process!**
+
 ![Relationship Status: Electrical Engineering](Meme.png)
 
 

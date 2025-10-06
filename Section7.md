@@ -8,7 +8,7 @@ WIP of what the final lab project actually is
 - [Section 8](./Section8.md) introduce the software we will be using for firmware (VSCode, Platform.io, Git)
 - [Section 9](./Section9.md) is an overview of basic coding in C. If you have experience and/or took CS61C, you can skim over this section
 - [Section 10](./Section10.md) introduces the basics of firmware
-- [Section 11](./Section11.md) explains the square wave generator project
+- [Section 11](./Section11.md) explains the LED dimmer Project
 
 ## Deadline for returning AND new members (Sunday, October 12th at midnight)
 This is a hard deadline as we don't want to be working on labs when projects start up

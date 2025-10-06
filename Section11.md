@@ -119,4 +119,106 @@ On the left half of your screen, you should see two important functions:
 In this starter code, the only thing inside loop() is a short delay(10);. That doesn’t do much, but it prevents the simulation from running unnecessarily fast.
 
 
+In this lab, our firmware has **two main jobs**:
+
+1. **Read the button (pin 4)** → Every time you press it, it should toggle the LED between “active” (responding to the potentiometer) and “off.”  
+   Basically, the button acts like an on/off switch for PWM control.
+
+2. **Read the potentiometer (pin 34)** → The potentiometer gives us an analog value (0–4095).  
+   We’ll map that value into a brightness level (0–255).  
+   Turning the knob = changing how bright the LED shines.
+
+3. **Control the LED (pin 15)** → The LED should only light up if the button has enabled it,  
+   and its brightness should scale smoothly based on the potentiometer value.
+
+---
+
+### Big Picture Functionality
+
+- Press the button once → LED listens to the potentiometer.  
+- Press again → LED ignores the potentiometer and stays off.  
+- Twist the knob → LED brightness goes up and down like a dimmer.
+
+# Time to Code!
+
+Now that we know *what* the firmware should do, let’s start building it piece by piece.  
+Don’t worry, we’ll go step-by-step — but you’ll also get chances to figure things out yourself.
+
+---
+
+### 1. Setup the pins
+
+- Define which pins we’ll use (LED on 15, Button on 4, Potentiometer on 34).  
+  1. Think of what additional variables you may need for the LED and button, specifically debouncing.
+- In setup(), tell the ESP32 whether each pin is an input or output.  
+  **Hint:** The LED should be OUTPUT, the button should be INPUT_PULLUP.  
+  Can you guess why?
+
+---
+
+### 2. Read the button (with debouncing)
+
+- Try writing code to check if the button is pressed.
+- What logic level (HIGH or LOW) will you see when it’s pressed?
+- Recap on debouncing: sometimes one press = multiple signals (because of mechanical *bouncing*).
+
+Add a simple **debounce** using millis():
+
+- Remember the last time the button was pressed.
+- Only accept a new press if enough time (e.g., 150 ms) has passed.
+- millis(): this is a built-in Arduino function that returns the number of milliseconds that have passed since your ESP32 started running the current program.
+
+**Bonus:** Add a toggle (pressed once = ON, pressed again = OFF).
+
+---
+
+### 3. Read the potentiometer and map the value
+
+- Use analogRead(POT_PIN) to see what values you get when turning the knob.  
+  Print these values to Serial Monitor.  
+  What’s the range? *(Spoiler: ~0–4095).*
+- We want to turn those big numbers into something useful for LED brightness.  
+  Use the map() function to scale 0–4095 → 0–255.
+hint: map(value, fromLow, fromHigh, toLow, toHigh)
+
+### 5. Drive the LED
+
+- Finally, send the mapped value to the LED.  
+  Use： analogWrite(LED_PIN, duty);
+- If the button has turned the LED “off,” then don’t write anything except 0.
+
+---
+### 🧠 Sanity Check (Before Getting Checked Off)
+
+Here is what is supposed to happen when you run the code:
+
+1. The **LED will initially be OFF**, waiting for a button press.
+
+2. Press the **button once** to turn the LED **ON** — now the LED will respond to the **potentiometer**.  
+   - **Twist the potentiometer** to change the LED’s brightness smoothly.
+
+3. Press the **button again** to turn the LED **OFF**, no matter the potentiometer position.
+
+4. The **Serial Monitor** will show:
+   - "LED ON" when the button enables the LED.
+   - "LED OFF" when the button disables the LED.
+
+### 💡 Pro-tip
+
+If the LED doesn’t change brightness or the button doesn’t work, check your wiring carefully — especially the button’s connection to **GND**.
+
+Upon finishing the project, please reach out to lab staff for check off.
+
+
+---
+
+## 🎉 Congratulations!
+
+You have now **completed the entire onboarding process!**
+![Meme](images/Meme.png)
+
+
+
+
+
 

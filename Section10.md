@@ -121,7 +121,7 @@ Sets the high-time of the PWM signal to control the angle
 The rest is fairly self explanatory. I just wanted to overexplain in the case it is not. 
 
 If we are using the arduino libraries and cpp, here is what it is:
-```
+``` cpp
 #include <Arduino.h>
 
 const int servoPin = 15;

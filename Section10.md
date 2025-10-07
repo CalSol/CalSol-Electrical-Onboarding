@@ -120,7 +120,46 @@ Sets the high-time of the PWM signal to control the angle
 
 The rest is fairly self explanatory. I just wanted to overexplain in the case it is not. 
 
+If we are using the arduino libraries and cpp, here is what it is:
+```
+#include <Arduino.h>
 
+const int servoPin = 15;
+const int potPin = 32;
+const int ledPin = 13;
+
+int pulseMin = 500;
+int pulseMax = 2500;
+
+void setup() {
+  Serial.begin(115200);
+  ledcSetup(0, 50, 16);
+  ledcAttachPin(servoPin, 0);
+  ledcSetup(1, 5000, 8);
+  ledcAttachPin(ledPin, 1);
+}
+
+void loop() {
+  int potValue = analogRead(potPin);
+  float voltage = (potValue / 4095.0) * 3.3;
+  int millivolts = voltage * 1000;
+  int servoValue = pulseMin + (millivolts * (pulseMax - pulseMin)) / 3300;
+
+  int duty = map(servoValue, pulseMin, pulseMax, 0, 65535);
+  ledcWrite(0, duty);
+  ledcWrite(1, map(servoValue, pulseMin, pulseMax, 0, 255));
+
+  int servoAngle = (millivolts * 180) / 3300;
+  Serial.print("Voltage: ");
+  Serial.print(millivolts);
+  Serial.println(" mV");
+  Serial.print("Servo Angle: ");
+  Serial.print(servoAngle);
+  Serial.println(" degrees");
+
+  delay(2000);
+}
+```
 
 
 

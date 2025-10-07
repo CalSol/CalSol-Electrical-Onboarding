@@ -42,7 +42,7 @@ Now theory is cool and all but how do we actually write firmware? I believe the 
 ```Cpp
 #include "mbed.h"
 
-UnbufferedSerial pc(USBTX, USBRX, 112500);
+UnbufferedSerial pc(USBTX, USBRX, 115200);
 PwmOut servo(PA_15); //servo pin
 AnalogIn pot2(PC_1); //potentiometer input pin
 PwmOut led1(PB_13); //Led with PWM not digital control
@@ -80,8 +80,10 @@ Let us go step by step:
 This is our mbed library. Allows use to use mbed functions like PwmOut, AnalogIn, UnbufferedSerial, etc
 
 ```cpp
-Unbuffered serial pc(USBTX, USBRX, 112500)
+Unbuffered serial pc(USBTX, USBRX, 115200)
 ```
+USBTX/USBRX are the default pins for UART (not going over that)
+115200 is the baud rate. This is the speed of communication. 115200 is a common default
 
 ```cpp
 PwmOut servo(PA_15); //servo pin
@@ -94,6 +96,32 @@ AnalogIn pot2(PC_1); //potentiometer input pin
 - pot2. Its a potentiometer reading
 In Mbed you define varname(pinout)
 - For an ESP32 it would be like GPIO32 instead of PC_1
+
+1 ...2 ...skip a few
+
+```cpp
+float voltage = pot2.read();
+int millivolts = voltage * 3.3f * 1000; 
+```
+pot2.read() will return a float from 0.0 to 1.0 proportional to input voltage
+To get to the 3.3v (standard for MCU), mutliply by 3.3f. Then multiply by 1000 to get to volts. 
+
+```cpp
+int servoValue = pulseMin + (millivolts * (pulseMax - pulseMin)) / 3300;
+```
+This linearly maps the potentiometer voltage
+
+```cpp
+servo.period_ms(20);
+servo.pulsewidth_us(servoValue);
+```
+Sets the PWM period to 20ms (50hz). This is very standard for hobby servos
+Sets the high-time of the PWM signal to control the angle
+
+The rest is fairly self explanatory. I just wanted to overexplain in the case it is not. 
+
+
+
 
 
 

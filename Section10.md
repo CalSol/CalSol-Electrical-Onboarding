@@ -34,9 +34,10 @@ Input/Output:
 - Self explanatory but for examples: Buttons are an INPUT. An LED responding to the button press is an OUTPUT
 
 PWM: 
+- Remember the hardware lab? Well our MCUs actually can use (most) pins to simulate an analog signal. Then we can wire a potentiometer to a pin that has a built in ADC (read the datasheets yall).
 
 ## How do we write firmware
-Now theory is cool and all but how do we actually write firmware? I believe the best way is to see an example and explain each bit.
+Now theory is cool and all but how do we actually write firmware? I believe the best way is to see an example and explain each bit. Now I want to add a disclaimer: this code is assuming the Mbed framework. Chances are for the ESP32 (the MCU we will use going forwards) will NOT use the mbed framework. However I believe it is a good idea to be able to read Excalibur's old code. 
 
 ```Cpp
 #include "mbed.h"
@@ -70,6 +71,30 @@ int main()
 ```
 
 This block of code is something I wrote when I first started firmware! It tells an STM32 to turn an LED on/off 
+
+Let us go step by step: 
+
+```cpp
+#include "mbed.h"
+```
+This is our mbed library. Allows use to use mbed functions like PwmOut, AnalogIn, UnbufferedSerial, etc
+
+```cpp
+Unbuffered serial pc(USBTX, USBRX, 112500)
+```
+
+```cpp
+PwmOut servo(PA_15); //servo pin
+PwmOut led1(PB_13); //Led with PWM not digital control
+AnalogIn pot2(PC_1); //potentiometer input pin
+```
+**Defining our output pins**
+- Servo: A PWM-controlled output connected to a servo
+- led1: A PWM-controlled LED (we can vary the brightness!)
+- pot2. Its a potentiometer reading
+In Mbed you define varname(pinout)
+- For an ESP32 it would be like GPIO32 instead of PC_1
+
 
 
 

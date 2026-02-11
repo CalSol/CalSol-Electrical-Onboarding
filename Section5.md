@@ -119,6 +119,7 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
   - Try to put the components that belong to the same subcircuit on the same section of the board.
   - When routing, maintain a sufficient distance (if possible) between the trace and pads/holes/vias, since not doing so -   - might result in error for DRC (Design rule checker) due to the constraints filled in.
   - Use thicker copper trace width for +12V and Net-(D9-A).
+  - Try to put the flyback diode close to the motor connector to protect from motor to protect from power spikes
   - Try to avoid using vias, but if inevitable, try to make the length of the trace between two vias as short as possible(Blue trace), that is to say, position your vias close to the intersection but not too close.
   - Connect all the GND pads to GND vias instead of connecting all the GND pads together.
     - To do so: Add a via next to your GND pad, select the via and press E on your keyboard, select GND for the dropdown named “Net”, and connect the GND pad to the GND via (Repeat this procedure for all GND pads)
@@ -131,5 +132,5 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
 # Checkpoint and Deliverables (Important!)
 As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
 
-### You will receive feedback for your layout so you might not pass on your first try!
+### You will receive feedback for your layout so you might not pass on your first try! PCB design and engineering in general is an iterative process. Please be expected to iterate.
 

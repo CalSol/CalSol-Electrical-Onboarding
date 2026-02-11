@@ -56,20 +56,32 @@ There are two main types:
 MOSFET gate resistors are used for: 
 - A gate resistor is used to limit the current into the MOSFET’s gate when switching.
 - This helps prevent Damage to the MOSFET from high inrush current and excessive ringing caused by fast switching and parasitic inductance
-- They lead to smoother operation in PWM-controlled circuits. 
+- They lead to smoother operation in PWM-controlled circuits.
+- 
+## Flyback diodes
+A flyback diode is a diode attached over the negative terminal of some inductive load (feel free to look up what this means) to help protect a board
+A motor (which I would heavily encourage you look up exactly how it works) is an inductive load, so we will use a flyback diode for this.
+
+What does it do?
+- When an inductor charges up, you can imagine it is full of current. After it is disconnected, the current will discharge rapidly into the circuit
+- We don't want the current to flow into our ICs or other delicate components, so we want to add a better path to dissipate through
+- Since a diode only allows current flow in one direction, it allows only an easier path when discharging
+- It's called flyback because the current flies back through the diode and through the motor to protect your circuit!
+This is complicated, but please look it up if you are confused, it is important
 
 # Checkpoint and Deliverables (IMPORTANT!)
 - In the same file that you made the 3 Led circuits, you will be building your PWM driver (motor controller) circuit.
 - You will be building the same functional circuit as the image below (doesn't have to be a carbon copy)!
 - Make sure to run the ERC checker (top toolbar) to make sure KiCad is happy about your schematic!
-- For CalSol members, take a screenshot of your circuit (both LED and PWM driver) and ERC checker to a lab staff to move on to the next section once your circuit is approved!
+- Take a screenshot of your circuit (both LED and PWM driver) and ERC checker to a lab staff to move on to the next section once your circuit is approved!
+- Include with your submission a paragraph where you either explain the motor driver or speed controller sub circuit. Feel free to annotate the schematic directly if it helps!
 - Ask for help if you need it!
-Lab Staff to reach out to: Ahmed A, Alex W, David N, Eric L, Jonathan J, Matthew L, Sina K
+Lab Staff to reach out to are listed on Section 1.
 
 (Please note in the image below, the led circuit on the left should be the led circuits you made from section 3). Try to pick your own resistor values as practice! Hint: Ours may not be correct :)
 
 ![Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)
 
-# DUE DATE 9/24 by the start of the meeting!!!
-- Please try to get these in by Monday so we can help you during the meeting
-- We will be starting layout on the 24th during the meeting, so please have the schematic done by then
+# DUE DATE ASAP!!
+- Please try to get these in ASAP as this is the easier half of the onboarding process.
+- Remember, this is something that is MUCH easier with our help. Please try to get it done in the first week.

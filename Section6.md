@@ -1,4 +1,7 @@
 # Section 6: Bring Up
+
+# NOTE: THIS WILL BE OPTIONAL FOR SPRING 2026 ONBOARDING. THIS IS STILL IMPORTANT, BUT NOT MANDATORY
+
 Congratulations! You have finished designing your PCB! We do not expect you to buy your own board; instead, our lovely CalSol team has already designed and ordered naked PCBs. 
 
 What does bring-up mean?
@@ -8,7 +11,7 @@ Now please follow the following [link](https://jlcpcb.com/help/article/how-to-ge
 
 Now, go upload your design onto [JCLPCB’s website](https://cart.jlcpcb.com/quote?edaOrderUrl=https%3A%2F%2Feasyeda.com%2Forder&electropolishingOnlyNo=no&achieveDate=72) to see if you have passed all their manufacturer constraints. 
 
-## Your next step is to show up to a soldering event!
+## Your next step is to solder!
 
 In this last section, you will be assembling a PCB and verifying the circuit you designed. So you will learn how to solder, use the power supply, and use an oscilloscope to verify your PWM signal. We will demonstrate the actual board itself working on 9/29 after the Electrical Meeting
 

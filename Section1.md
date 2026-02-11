@@ -16,24 +16,15 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 6](./Section6.md) is the bring-up (hands-on) portion of the training.
 
 ## Deadline for new members (Wednesday, October 1st at 9 am)
-The hardware lab component must be finished the morning of the 1st as all CalSol onboarding must be checked off and confirmed by GM later that day. Note that the last office hours and chance for help will be the last day of September (9/30). 
+The hardware lab component should be finished the morning of the 1st as all CalSol onboarding must be checked off and confirmed by GM later that day. Note that the last office hours and main chance for help will be the last day of September (9/30). Any other help from us will be out of our own courtesy (we are NOT obliged to help you after 2 weeks, but we will still check people off).
 
 # OFFICE HOUR TIMES
 In-person Office hours for help and checkoffs. 
 ## All Office hours will be held in or outside Cory 246 (Supernode)
 - If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
-
-Ignore the date. This is the timeline daily for the whole two weeks of onboarding unless further clarified.
-![OH Times](./images/OH_Timeline.png)
+- The times will be posted in the #new_members channel whenever. We will also hopefully announce them during meetings. Every meeting is also office hours.
 
 Feel free to reach out to the lab staff on slack for help or for checkoffs:
 - Matthew Lee
 - Eric Li
-- Richard Gomez
-- Ryan Kwong
-- Alex Wong
-- Haaziq Kazi
-- Yingqi Yang
-- Varun Datta
-- Janus Sucharitakul
 

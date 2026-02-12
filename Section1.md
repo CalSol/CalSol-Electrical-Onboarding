@@ -16,7 +16,7 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 6](./Section6.md) is the bring-up (hands-on) portion of the training.
 
 ## Deadline for help
-The hardware lab component should be finished the morning of the 1st as all CalSol onboarding must be checked off and confirmed by GM later that day. Note that the last office hours and main chance for help will be (2/25). Any other help from us will be out of our own courtesy (we are NOT obliged to help you after 2 weeks, but we will still check people off).
+The entire CalSol onboarding should be done by 2/25. Note that the last office hours and main chance for help will be (2/25). Any other help from us will be out of our own courtesy (we are NOT obliged to help you after 2 weeks, but we will still check people off).
 
 # OFFICE HOUR TIMES
 In-person Office hours for help and checkoffs. 
@@ -27,4 +27,5 @@ In-person Office hours for help and checkoffs.
 Feel free to reach out to the lab staff on slack for help or for checkoffs:
 - Matthew Lee
 - Eric Li
+- Kadon Liang
 

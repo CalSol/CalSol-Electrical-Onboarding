@@ -75,7 +75,8 @@ This is complicated, but please look it up if you are confused, it is important
 - Make sure to run the ERC checker (top toolbar) to make sure KiCad is happy about your schematic!
 - Take a screenshot of your circuit (both LED and PWM driver) and ERC checker to a lab staff to move on to the next section once your circuit is approved!
 - Include with your submission with multiple paragraphs (AI not allowed; if you are caught you will not be allowed to onboard) where you explain the motor driver and speed controller sub circuit. Feel free to annotate the schematic directly if it helps! Also write something personal about the most interesting thing you found about the schematic.
-- Ask for help if you need it!
+- Research the 555 timer datasheet and write down interesting things you found as part of the paragraphs.
+- Ask for help if you need it! Also be ready to explain anything on your schematic.
 Lab Staff to reach out to are listed on Section 1.
 
 (Please note in the image below, the led circuit on the left should be the led circuits you made from section 3). Try to pick your own resistor values as practice! Hint: Ours may not be correct :)
@@ -84,4 +85,4 @@ Lab Staff to reach out to are listed on Section 1.
 
 # DUE DATE ASAP!!
 - Please try to get these in ASAP as this is the easier half of the onboarding process.
-- Remember, this is something that is MUCH easier with our help. Please try to get it done in the first week.
+- Remember, this is something that is MUCH easier with our help. Please try to get it done in the first week. After the first week we won't give ANY extra help

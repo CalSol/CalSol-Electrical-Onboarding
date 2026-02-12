@@ -126,7 +126,7 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
   - Important: For the footprints of the potentiometers, you will see a huge rectangle with three holes, you are allowed to place passives (resistors, capacitors, diodes etc.) within the rectangle (so that we can save space)
     - Reason we can do this is because of the physical shape of the potentiometer: ![last](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/last.png), as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
 > Tip: You can hang the ends of the potentiometers off the edge to save space. (i.e. - cut the empty space of potentiometer footprint when defining the PCB size using Edge.cuts)
-  - Again, try to make your board as small as possible!
+  - Again, try to make your board as small as possible! We will expect you to iterate to shrink it down.
 ### Ask for help if you need it!
 
 # Checkpoint and Deliverables (Important!)

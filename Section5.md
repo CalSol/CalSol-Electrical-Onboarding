@@ -130,7 +130,7 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
 ### Ask for help if you need it!
 
 # Checkpoint and Deliverables (Important!)
-As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
+As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice). You must include all the tips we have put down. Be ready to explain all of this if you had to!!!
 
 ### You will receive feedback for your layout so you might not pass on your first try! PCB design and engineering in general is an iterative process. Please be expected to iterate.
 

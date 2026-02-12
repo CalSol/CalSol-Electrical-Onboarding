@@ -79,7 +79,7 @@ Lab Staff to reach out to are listed on Section 1.
 
 (Please note in the image below, the led circuit on the left should be the led circuits you made from section 3). Try to pick your own resistor values as practice! Hint: Ours may not be correct :)
 
-[Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)
+![Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)
 
 # DUE DATE ASAP!!
 - Please try to get these in ASAP as this is the easier half of the onboarding process.

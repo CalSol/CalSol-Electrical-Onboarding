@@ -47,7 +47,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
  
  - A 12V power source 
 
- Think about how you would accomplish this!
+ Think about how you would accomplish this! Please make 3 seperate LED circuits, one per LED, not one for 3 LEDs!
 
  #### Naive Approach
 

@@ -73,6 +73,7 @@ This is complicated, but please look it up if you are confused, it is important
 - In the same file that you made the 3 Led circuits, you will be building your PWM driver (motor controller) circuit.
 - You will be building the same functional circuit as the image below (doesn't have to be a carbon copy)!
 - Make sure to run the ERC checker (top toolbar) to make sure KiCad is happy about your schematic!
+- You will also need to do a write up about your schematic to reinforce understanding! [Write Up Instructions Here](https://drive.google.com/file/d/1JXq2uqCh6x76AsVcAB6X8daHGDF-rhpH/view?usp=sharing)
 - Full spec of deliverables put in slack onboarding stuff
 - Ask for help if you need it! Also be ready to explain anything on your schematic.
 Lab Staff to reach out to are listed on Section 1.

@@ -16,7 +16,7 @@ Let’s learn how we can mathematically analyze circuits with **Ohm’s law**. O
 
 ### Voltage
 
-But what causes electrons to flow? Power sources contain energy, called **voltage**, creating a difference in potential energy that causes electrons to flow. Picture water flowing downhill, with the hill's height representing voltage. At the top, the water has high potential energy, similar to a high voltage. As the water moves down, it flows naturally to lower points, just like current flows from high voltage to low voltage in a circuit. The steeper the hill (or the greater the voltage difference), the stronger the flow of water, much like a greater voltage difference creates a stronger current. The unit of voltage is voltage (V).
+But what causes electrons to flow? Power sources contain energy, called **voltage**, creating a difference in potential energy that causes electrons to flow. Picture water flowing downhill, with the hill's height representing voltage. At the top, the water has high potential energy, similar to a high voltage. As the water moves down, it flows naturally to lower points, just like current flows from high voltage to low voltage in a circuit. The steeper the hill (or the greater the voltage difference), the stronger the flow of water, much like a greater voltage difference creates a stronger current. The unit of voltage is volts (V).
 
 ### Resistance
 

@@ -57,9 +57,9 @@ MOSFET gate resistors are used for:
 - A gate resistor is used to limit the current into the MOSFET’s gate when switching.
 - This helps prevent Damage to the MOSFET from high inrush current and excessive ringing caused by fast switching and parasitic inductance
 - They lead to smoother operation in PWM-controlled circuits.
-- 
+
 ## Flyback diodes
-A flyback diode is a diode attached over the negative terminal of some inductive load (feel free to look up what this means) to help protect a board
+A flyback diode is a diode attached over the negative terminal of some inductive load (feel free to look up what this means) to help protect a board. 
 A motor (which I would heavily encourage you look up exactly how it works) is an inductive load, so we will use a flyback diode for this.
 
 What does it do?

@@ -28,4 +28,5 @@ Feel free to reach out to the lab staff on slack for help or for checkoffs:
 - Matthew Lee
 - Eric Li
 - Kadon Liang
+- Brent Lee
 

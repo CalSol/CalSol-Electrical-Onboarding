@@ -10,7 +10,7 @@ This is what we use to share files and practice version control
 
 Create a github account if you don't already [here](https://github.com/).
 
-**Action Item**: fill out this form [here](WIP) with your email so we can add you to the club Github repository. (This is the same form from the lecture)
+**Action Item**: Reach out to the Electrical PMs on Slack with your email so we can add you to the club Github repository. (This is the same form from the lecture)
 
 After you are added to the GitHub repository, we need to add the repositories to your computer. We advise the use of Github desktop to make this process easier. Here is a link to install [here](https://desktop.github.com/download/). This lab will use github desktop, but if you are competent enough at regular Git doing it through Git Bash is an option
 

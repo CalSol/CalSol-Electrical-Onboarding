@@ -20,11 +20,11 @@ Here is a useful link from CS61B course staff to setup Git on your computer [her
 
 Now we will use GitHub desktop to explain how to clone the relevant repositories
 
-WIP Add small tutorial to clone repos as well as note which repos to clone
+Add small tutorial to clone repos as well as note which repos to clone
 
 ### How CalSol uses Git
 
-WIP Add a section on how we want to use version control and git to share. Explain the process we use on Git
+Add a section on how we want to use version control and git to share. Explain the process we use on Git
 
 ## Programming a Board
 

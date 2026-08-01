@@ -19,13 +19,17 @@ How it works:
 - A lower duty cycle (e.g., 25% high, 75% low) delivers less power.
 - This is efficient because the switching circuit dissipates very little power, as it is either fully on or fully off.
 
+In this schematic, the RV4 Potentiometer sets the duty cycle of the square wave output from the 555 timer's pin "Q". 
+
 ## 555 Timer
 The 555 timer is a versatile integrated circuit used for timing, pulse generation, and oscillator applications. For example, 555 timers can be used for generating clock pulses for circuits. The key skill to use here is abstraction from section 2!
 You can check out the datasheet if you are interested.
 
 How to use it: 
 - Internally, it uses voltage comparators, a flip-flop, and a discharge transistor. 
-- By configuring external resistors and capacitors, you set the timing intervals. 
+- By configuring external resistors and capacitors, you set the timing intervals.
+
+In this circuit, the 555 Timer outputs a voltage that is fed to the MOSFET gate and control whether current flows through the motor.
 
 ## RC Circuit
 An RC circuit is a circuit consisting of a resistor (R) and a capacitor (C). It can be used for filtering and timing. In our case, we use it as a timer.
@@ -35,7 +39,7 @@ How it works:
 - In a high-pass filter, it allows high frequencies to pass and blocks low frequencies.
 
 ### Decoupling Capacitors
-Decoupling capacitors are filters used to stabilize voltage in electronic circuits. For example, decoupling capacitors are used to reduce noise in microcontroller circuits. 
+Decoupling capacitors are filters used to stabilize voltage in electronic circuits. For example, decoupling capacitors are used to reduce high-frequency noise in microcontroller circuits. 
 
 How it works: 
 - They are placed near integrated circuits (ICs) to filter out noise and provide instantaneous current during transient demands. 
@@ -47,7 +51,7 @@ In our case we use it as a switch for the motor or light bulb we are powering to
 
 How it works: 
 - The MOSFET has three terminals: Gate, Drain, and Source
-- Applying voltage to the Gate creates an electric field, controlling the flow of current between the Drain and the Source. 
+- Applying voltage to the Gate creates an electric field, controlling the flow of current between the Drain and the Source. Think of this as a "key" or a "password". The gate voltage must hit a certain threshold to allow the flow of current from Drain to Source.
 
 There are two main types: 
 - N-channel: Current flows when the gate voltage is positive 

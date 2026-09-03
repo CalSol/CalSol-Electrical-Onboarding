@@ -1,4 +1,4 @@
-# Section 10: Basics of Firmware
+# Section 10: Basics of Firmware *IGNORE THIS PAGE*
 
 Now that you have all the necessary software, we want to actually work with our microcontrollers! This section will go over the basics of firmware to start working with it. 
 - I am going to assume that you understand basic coding syntax like for loops, print statements, etc. If not here is a great resource: [WIP]

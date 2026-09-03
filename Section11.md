@@ -1,3 +1,4 @@
+*IGNORE THIS PAGE*
 # Fa25 Firmware Lab: Button + Potentiometer LED Control
 
 Welcome to your first firmware project! 🎉  

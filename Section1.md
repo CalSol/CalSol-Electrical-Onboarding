@@ -16,7 +16,9 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 6](./Section6.md) is the bring-up (hands-on) portion of the training.
 
 ## Office Hours/Deadlines
-The entire CalSol onboarding should be done by 10/7. Office hours information is available through this [Google Calendar]((https://calendar.google.com/calendar/u/0?cid=Y19kOTRiMmRmMjAzYzJlY2FkM2RhYjk1NjcwNzJmMDQ0Y2U1ZTc2MmUwNTlhZTkxZDQzMzgzMTRhZWNkZTgyM2U5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)). Feel free to simply show up to any of the times/locations you see on this calendar to get help. Hardware onboarding checkoffs (i.e. everything in this Github) will be from 9/21 to 9/23, and after that we will begin Firmware onboarding. Checkoffs can be done by any of the following people:
+The entire CalSol onboarding should be done by 10/7. Office hours information is available through this [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19kOTRiMmRmMjAzYzJlY2FkM2RhYjk1NjcwNzJmMDQ0Y2U1ZTc2MmUwNTlhZTkxZDQzMzgzMTRhZWNkZTgyM2U5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20). Feel free to simply show up to any of the times/locations you see on this calendar to get help. 
+
+Hardware onboarding checkoffs (i.e. everything up until and including Section 9) will be from 9/21 to 9/23, and after that we will begin Firmware onboarding. Checkoffs can be done with any of the following people:
 
 - Kadon Liang
 - Tashvi Mehta

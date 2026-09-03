@@ -15,18 +15,12 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) is the bring-up (hands-on) portion of the training.
 
-## Deadline for help
-The entire CalSol onboarding should be done by 2/25. Note that the last office hours and main chance for help will be (2/25). Any other help from us will be out of our own courtesy (we are NOT obliged to help you after 2 weeks, but we will still check people off).
+## Office Hours/Deadlines
+The entire CalSol onboarding should be done by 10/7. Office hours information is available through this [Google Calendar]([url](https://calendar.google.com/calendar/u/0?cid=Y19kOTRiMmRmMjAzYzJlY2FkM2RhYjk1NjcwNzJmMDQ0Y2U1ZTc2MmUwNTlhZTkxZDQzMzgzMTRhZWNkZTgyM2U5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)). Feel free to simply show up to any of the times/locations you see on this calendar to get help. Hardware onboarding checkoffs (i.e. everything in this Github) will be from 9/21 to 9/23, and after that we will begin Firmware onboarding. Checkoffs can be done by any of the following people:
 
-# OFFICE HOUR TIMES
-In-person Office hours for help and checkoffs. 
-## All Office hours will be held in or outside Cory 246 (Supernode)
-- If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
-- The times will be posted in the #new_members channel whenever. We will also hopefully announce them during meetings. Every meeting is also office hours.
-
-Feel free to reach out to the lab staff on slack for help or for checkoffs:
-- Matthew Lee
-- Eric Li
 - Kadon Liang
-- Brent Lee
+- Tashvi Mehta
+- Ahmed Alhakem
+- Ching Yuen
+- Matthew Lee
 

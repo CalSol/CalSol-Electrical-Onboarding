@@ -129,6 +129,13 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
   - Again, try to make your board as small as possible! We will expect you to iterate to shrink it down.
 ### Ask for help if you need it!
 
+# Layout Tips and Tricks
+- Condense the circuit to be as small as possible
+- Make sure your traces can handle the current you expect to go through them (you can change trace thickness!)
+- Place decoupling capacitors/filtering passives as close to the relevant pin on the IC
+- Avoid sharp turns (≤ 90°) in your traces for good signal integrity
+
+
 # Checkpoint and Deliverables (Important!)
 As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice). You must include all the tips we have put down. Be ready to explain all of this if you had to!!!
 

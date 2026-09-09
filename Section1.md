@@ -26,6 +26,6 @@ Hardware onboarding checkoffs (i.e. everything up until and including **Section 
 - Ching Yuen
 - Matthew Lee
 
-##Lectures
+## Lectures
 Throughout the 4 weeks of hardware onboarding, we will be holding lectures on key electrical engineering concepts. It is in your best interest to attend these in order to become a successful contributor to electrical, but if you are unable to do so, here are the [lecture slides](https://docs.google.com/presentation/d/1WJEBDh0D5JaAgnj8rB9FVubY4nsnhvOFgbNYwtMNDxg/edit?usp=sharing). 
 

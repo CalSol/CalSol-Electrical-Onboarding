@@ -1,5 +1,7 @@
 # Section 8: Software Introduction
 
+# NOTE: AS OF FALL 2027 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
+
 Note: Please don't get stuck on this part of the firmware lab. We will help debug this software stuff in person. Please continue on without finishing this section as the following sections don't need any of this software.
 
 ## Git + Github Repositories

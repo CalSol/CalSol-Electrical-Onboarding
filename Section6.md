@@ -1,6 +1,6 @@
 # Section 6: Bring Up
 
-# NOTE: THIS WILL BE OPTIONAL FOR SPRING 2026 ONBOARDING. THIS IS STILL IMPORTANT, BUT NOT MANDATORY
+# NOTE: AS OF SPRING 2026 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
 
 Congratulations! You have finished designing your PCB! We do not expect you to buy your own board; instead, our lovely CalSol team has already designed and ordered naked PCBs. 
 

@@ -1,5 +1,7 @@
 # Section 9: CS61C Done Fast
 
+# NOTE: AS OF FALL 2027 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
+
 Note: if you already have taken or are taking 61C, this will be complete review.
 
 ## Syntax

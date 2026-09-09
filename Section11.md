@@ -1,5 +1,7 @@
 # Fa25 Firmware Lab: Button + Potentiometer LED Control
 
+# NOTE: AS OF FALL 2027 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
+
 Welcome to your first firmware project! 🎉  
 In this lab, you’ll learn how to connect simple input devices (a **button** and a **potentiometer**) to an **ESP32** and use code to control an **LED**.  
 This project introduces **GPIO basics**, **analog inputs**, and **PWM duty cycle control**, which are essential skills for future work on the solar car.

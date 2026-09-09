@@ -1,5 +1,7 @@
 # Section 7: Introduction to Firmware Lab
 
+# NOTE: AS OF FALL 2027 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
+
 Welcome to the CalSol Electrical subteam for real this time!
 
 ### Here is a general overview of the hardware training:

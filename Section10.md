@@ -1,4 +1,4 @@
-# Section 10: Basics of Firmware
+# Section 10: Basics of Firmware *IGNORE THIS PAGE*
 
 # NOTE: AS OF FALL 2027 ONBOARDING AND ONWARD THIS SECTION HAS BEEN DISCONTINUED 
 

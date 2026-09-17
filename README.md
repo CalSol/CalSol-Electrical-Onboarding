@@ -11,10 +11,9 @@ This lab is meant to teach you the workflow of designing a PCB from scratch. You
 - [Section 5](./Section5.md) PCB Layout in KiCad
 
 ### Contributors:
-Ahmed A, Alex W, Eric L, Jonathan J, Janus J, Matthew L
+Ahmed A, Alex W, Eric L, Jonathan J, Janus J, Kadon L, Matthew L, Tashvi M
 
 ### Credit
 The Hardware lab is inspired and uses content from the "The Engineering Mindset" YT channel.
-The Software lab is roughly inspired by labslands.com.
 
 

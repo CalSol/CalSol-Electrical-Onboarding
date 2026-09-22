@@ -137,7 +137,37 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
 
 
 # Checkpoint and Deliverables (Important!)
-As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice). You must include all the tips we have put down. Be ready to explain all of this if you had to!!!
+As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!).
+
+Checkoff:
+In addition to the requirements below, we are requiring a minimum of 3 check-offs before marking the layout section of your onboarding as complete, due Sunday 09/27 11:59pm. Each check-off will consist of coming to an OH (or on slack) and receiving feedback on a completed iteration of your layout (it does not have to be perfect the first time!). Onboarding Lead may deem more revisions are needed.
+
+Attendance:
+You must, at any point in your layout process, come to at least one OH to discuss your board, and discuss your in-progress/completed layout iteration.
+We also expect you to come to Wednesday’s General Meeting (starting 8pm). If you have extenuating circumstances (such as a midterm) you must inform Tashvi, Kadon, or Ahmed beforehand so we can catch you up to speed.
+
+Layout Specs:
+Your layout must be rectangular, no crazy shapes that will be difficult to use
+Your maximum layout area (measured from Edge.Cuts) is 1000mm^2
+Half the fun is optimizing space on your layout! We will have a fun prize for the person who has the smallest layout size (within reason) :D
+Note: on an actual board, sometimes larger boards are better (for signal/power integrity, soldering/readability, etc). This is just an exercise to get you all to iterate!
+Though we have seen many previous onboarding layouts meet this requirement, this number is subject to change based on difficulty. Ask in OH/Slack if you’re stuck!
+DRC must show no errors and no functional warnings
+Your layout must be single-sided with two layers
+
+Writeup:
+Just like for schematic, to help y’all become better Electrical Engineers (and layout designers, you will submit a writeup! Your writeup should include the following:
+Justification for calculations that you had to make (e.g. trace width)
+Explanation of design decisions and why they work (e.g. pours, placement, …) 
+A simple bill of materials (BOM) (you can use this template here):
+Using https://www.digikey.com/ (or other sites), find a potential component that can be used for each of the following footprints:
+A capacitor on your board (pick one)
+A resistor on your board (pick one)
+An NMOS
+A potentiometer
+You should also have an explanation as to why you chose each component (look at the datasheet/component specs!)
+Write about something you learned/found interesting or cool about layout!
+Give us 2 Truths and a Lie (don’t tell us the answer 🤫)
 
 ### You will receive feedback for your layout so you might not pass on your first try! PCB design and engineering in general is an iterative process. Please be expected to iterate.
 

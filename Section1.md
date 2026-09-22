@@ -16,9 +16,9 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 6](./Section6.md) is the bring-up (hands-on) portion of the training.
 
 ## Office Hours/Deadlines
-The entire CalSol onboarding should be done by 10/7. Office hours information is available through this [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19kOTRiMmRmMjAzYzJlY2FkM2RhYjk1NjcwNzJmMDQ0Y2U1ZTc2MmUwNTlhZTkxZDQzMzgzMTRhZWNkZTgyM2U5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20). Feel free to simply show up to any of the times/locations you see on this calendar to get help. 
+The entire CalSol onboarding should be done by 10/12. Office hours information is available through this [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19kOTRiMmRmMjAzYzJlY2FkM2RhYjk1NjcwNzJmMDQ0Y2U1ZTc2MmUwNTlhZTkxZDQzMzgzMTRhZWNkZTgyM2U5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20). Feel free to simply show up to any of the times/locations you see on this calendar to get help. 
 
-Hardware onboarding checkoffs (i.e. everything up until and including **Section 5**) will be from 9/21 to 9/23, and after that we will begin Firmware onboarding. Checkoffs can be done with any of the following people:
+Hardware onboarding checkoffs (i.e. everything up until and including **Section 5**) will be described on a Slack, and after that we will begin Firmware onboarding. Checkoffs can be done with any of the following people:
 
 - Kadon Liang
 - Tashvi Mehta
@@ -27,6 +27,10 @@ Hardware onboarding checkoffs (i.e. everything up until and including **Section 
 - Matthew Lee
 - Katherine Chen
 - Emma Chikere
+- Damian Vizcarra
+- Howard Yao
+- Huan Nguyen
+- Richard Gomez
 
 ## Lectures
 Throughout the 4 weeks of hardware onboarding, we will be holding lectures on key electrical engineering concepts. It is in your best interest to attend these in order to become a successful contributor to electrical, but if you are unable to do so, here are the [lecture slides](https://docs.google.com/presentation/d/1WJEBDh0D5JaAgnj8rB9FVubY4nsnhvOFgbNYwtMNDxg/edit?usp=sharing). 
